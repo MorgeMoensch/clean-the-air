@@ -50,6 +50,12 @@ table {
 /* --------- */
 
 body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100lvh;
+    width: 100vw;
+    margin: 0;
     background-image: url('../img/clouds-by-pero-kalimero.webp');
 }
 
@@ -85,6 +91,11 @@ p {
     a {
         color: black;
     }
+}
 
 
+@media screen and (max-device-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
 }
